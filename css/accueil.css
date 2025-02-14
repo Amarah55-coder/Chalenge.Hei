@@ -1,0 +1,22 @@
+#home{
+  display:flex;
+  width:98%;
+  height:100vh; 
+  background:white;
+  margin:1.5rem auto auto auto;
+  border-radius:2rem 2rem 0 0;
+  
+  div{
+    width:50%;
+    height:100%;
+
+  }
+  div:nth-child(1){
+    background:var(--white);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:30vh;
+    border-radius:2rem 0 0 0;
+  }
+}
