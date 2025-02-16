@@ -8,52 +8,29 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+document.getElementById('form').addEventListener("submit", function validate(e) {
+    const email = document.getElementById("email").value;
+    const location = document.getElementById("plocation").value;
+    const dateD = document.getElementById("dateD").value;
+    const dateA = document.getElementById("dateA").value;
+    const sms = document.getElementById("error");
+    const btn = document.getElementById("btn").value
+    btn.innerHTML = "...";
 
-const pourcentage = document.querySelectorAll(".pourcentage span");
-const container = document.querySelector(".pourcentage ");
+    if (email || location || dateD || dateA, dateD) {
+        setTimeout(function() { myFunction("reservation succes"); }, 3000);
 
-
-let activated = false;
-window.addEventListener("scroll", () => {
-
-    if (
-        pageYOffset > container.offsetTop - container.offsetHeight - 200 &&
-        activated === false
-    ) {
-        pourcentage.forEach(counters => {
-            counters.innerHTML = 0;
-            let count = 0;
-
-            function updateCount() {
-                const target = parseInt(counters.dataset.count);
-
-                if (count < target) {
-                    count++;
-
-                    counters.innerHTML = count;
-                    console.log(count)
-
-                    setTimeout(updateCount, 10);
-                } else {
-                    counters.innerHTML = target;
-
-                }
-
-
-                updateCount();
-
-                activated = true
-            }
-
-        })
-    } else if (
-        pageYOffset < container.offsetTop - container.offsetHeight - 500 ||
-        pageYOffset === 0 &&
-        activated === true
-    ) {
-        pourcentage.forEach(counters => {
-            counters.innerHTML = 0;
-        });
-        activated = false
+        function myFunction(value) {
+            sms.innerHTML = value;
+            sms.style.padding = "0.2rem 0.3rem";
+            sms.style.background = "green";
+            sms.style.fontSize = "1rem";
+            sms.style.margin = "0.5rem";
+            sms.style.color = "#fff";
+        }
+        e.preventDefault();
+    } else {
+        window.open("../index.html");
     }
+
 })
