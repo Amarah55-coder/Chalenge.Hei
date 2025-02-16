@@ -1,52 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JRCRAM'V</title>
-    <link rel="stylesheet" href="./css/style.css"/>
-    <link rel="stylesheet" href="./css/accueil.css"/>
-  <head/>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/accueil.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/destination.css" />
+    <link rel="stylesheet" href="./css/reservation.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+
+<body>
     <header>
-      <div class="navigation">
-        <div class="logo__item">
-          <div>
-            <div class="logo-image">
-              <img src="./assets/images/logo.png" alt="logo JCRAM'V" />
+        <div class="navigation">
+            <div class="logo__item">
+                <div class="logo-image">
+                    <img src="./assets/img/logo.png" alt="logo JCRAM'V" />
+                </div>
+                <h1>JCRAM'V</h1>
+
             </div>
-            <span>JCRAM'V</span>
-          </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#destination">Destination</a>
+                <a href="#hotel">Hotel</a>
+                <a href="#reservation">Reservation</a>
+            </nav>
+            <div class="btn">
+                <div class="menu"></div>
+                <button type="submit"><a href=".//docs/login.html">Sign out</a></button>
+            </div>
         </div>
-        <nav>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#destination">Destination</a>
-          <a href="#hotel">Hotel</a>
-          <a href="#reservation">Reservation</a>
-        </nav>
-        <div class="btn">
-        <div class="menu"></div>
-        <button type="submit">Sign out</button>
-        </div>
-      </div>
     </header>
     <main>
-      <section id="home">
-        <div>
-          <div>
-            <h1>Discover the best destination in the world</h1>
-            <p>
-              Welcome to JCRAM'V your first destination for discovering the most
-              breathtaking places on EARTH Whether you're seeking adventure or relaxation, we have the perfect getaway for you.
-            </p>
-            
-            <button>Get Started</button>
-          </div>
-        </div>
-        <div>
-        </div>
-      </section>
+        <section id="home">
+            <div class="gauche">
+                <div class="gauche-cobtainer">
+                    <h1>Discover the best destination in the world</h1>
+                    <p>
+                        Welcome to JCRAM'V your first destination for discovering the most breathtaking places on EARTH Whether you're seeking adventure or relaxation, we have the perfect getaway for you.
+                    </p>
+                    <button>Get Started</button>
+                </div>
+            </div>
+
+            <div class="droite">
+                <div class="blue">
+                    <div class="etoile">
+
+                    </div>
+                    <div class="image">
+                        <img src="./assets/img/girlTravel.png" alt="">
+                    </div>
+                    <div class="fleche">
+                        <img src="./assets/img/fleche-courbe.png" alt="fleche-courbe">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="img__item">
+                <div class="block">
+                    <div class="top">
+                        <div class="card_1">
+                            <img src="./assets/img/about1.jpg" alt="about1">
+                        </div>
+                        <div class="card_2">
+                            <img src="./assets/img/about2.jpg" alt="about2">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="card_2">
+                            <img src="./assets/img/about3.jpg" alt="about3">
+                        </div>
+                        <div class="card_1">
+                            <img src="./assets/img/about4.jpg" alt="about4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text__item">
+                <div class="text">
+                    <h2>We Recommende a Beautiful place every month</h2>
+                    <p>At JCRAM'V, we strive to bring you the most stunning destination every month, From tropical paradises to historic landmarks, our curated selections are sure to inspire your next adventure.
+                    </p>
+                    <button>Reservation</button>
+                    <div class="pourcentage">
+                        <div>
+                            <div class="counters">
+                                <h1><span data-count="99">0</span>%</h1>
+                                <p>of satisfied customers recommende our services</p>
+                            </div>
+
+                            <div class="counters">
+                                <h1><span data-count="200">0</span></h1>
+                                <p>countries visited annualy</p>
+                            </div>
+
+                            <div class="counters">
+                                <h1><span data-count="25">0</span></h1>
+                                <p>years of experience in the travel industry</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destination">
+            <div class="top">
+                <h3>Top Destination</h3>
+                <p>Explore our best destination</p>
+            </div>
+            <div class="bottom">
+                <div class="card_1">
+                    <div class="card_img">
+                        <img src="./assets/img/topdestination1.jpg" alt="topdestination1">
+                    </div>
+                    <div class="info-content">
+                        <div class="title-content">
+                            <div class="left-title">
+                                <div class="left-title-up">
+                                    <h3>Poitiers</h3>
+                                </div>
+                                <div class="left-title-down">
+                                    <p>2 Days 3 Nights</p>
+                                </div>
+                            </div>
+                            <div class="title-right">
+                                <i class="fas fa-star"></i>
+                                <span>4.3</span>
+                            </div>
+
+
+                        </div>
+
+                        <div class="destination_bottom_card_content_icons">
+                            <div class="destination_bottom_card_content_icons1">
+                                <div class="destination_bottom_card_content_icons1_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons1_title">
+                                    <p>Plane</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons2">
+                                <div class="destination_bottom_card_content_icons2_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 22v-6.57M12 11h.01M12 7h.01M14 15.43V22m1-6a5 5 0 0 0-6 0m7-5h.01M16 7h.01M8 11h.01M8 7h.01"/><rect width="16" height="20" x="4" y="2" rx="2"/></g></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons2_title">
+                                    <p>Hotel</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons3">
+                                <div class="destination_bottom_card_content_icons3_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19.031 15.388a.863.863 0 1 1 .002-1.726a.863.863 0 0 1-.002 1.726m0-2.88a2.014 2.014 0 1 0 .003 4.029a2.014 2.014 0 0 0-.004-4.029zm-14.137 2.88a.864.864 0 0 1 0-1.726a.863.863 0 0 1 0 1.726m0-2.88a2.014 2.014 0 1 0 2.014 2.014v-.001a2.014 2.014 0 0 0-2.014-2.014h-.002z"/><path fill="currentColor" d="m11.507 9.727l-.143-2.64h2.202l3.023 2.64zm-.854 0H7.191l1.207-2.64h2.254zm-4.695 0H4.894l2.014-2.64h.64zm17.46 2.16l-.18-.578a1.68 1.68 0 0 0-1.312-1.151l-.01-.001l-4.262-.71l-3.108-2.646a1.68 1.68 0 0 0-1.096-.404H7.206c-.585 0-1.103.288-1.42.729l-.004.005l-1.854 2.607l-1.954.2a1.28 1.28 0 0 0-1.112.973l-.002.009l-.292 1.259H.565a.56.56 0 0 0-.454.232l-.001.002a.56.56 0 0 0-.079.512l-.001-.004l.18.539a1.56 1.56 0 0 0 1.474 1.062h.554a2.656 2.656 0 1 1 5.311 0h8.826a2.656 2.656 0 0 1 2.656-2.656h.001a2.656 2.656 0 0 1 2.656 2.656h.458c.769 0 1.419-.509 1.631-1.209l.003-.012l.198-.666a.59.59 0 0 0-.093-.515l.001.001a.59.59 0 0 0-.467-.234z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons3_title">
+                                    <p>Transfert</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons4">
+                                <div class="destination_bottom_card_content_icons4_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9.397 13.829L0 23.226l.775.775l9.373-9.373a8 8 0 0 1-.74-.786l-.011-.014zM4.426 5.262a.534.534 0 0 0-.31.651l-.001-.004a6.4 6.4 0 0 0 3.263 3.819l.037.017c.069.04.153.064.242.064h.014h-.001h.001a.55.55 0 0 0 .313-.097l-.002.001a40.5 40.5 0 0 1 10.372-5.441l.287-.088A.095.095 0 0 0 18.625 4h-.001a22.4 22.4 0 0 0-4.968-.543h-.052h.003h-.006a24.2 24.2 0 0 0-9.336 1.865l.16-.059zm3.236 3.884a7 7 0 0 1-1.709-1.285l-.001-.001a5.14 5.14 0 0 1-1.18-1.993l-.01-.036c2.619-1.09 5.662-1.723 8.852-1.726h.001a23 23 0 0 1 3.001.196l-.117-.012c-3.375 1.369-6.285 3-8.955 4.941l.12-.083z"/><path fill="currentColor" d="M3.938 4.832c2.847-1.242 6.165-1.965 9.652-1.965c1.514 0 2.996.136 4.434.397l-.151-.023a.09.09 0 0 0 .104-.055v-.001a.1.1 0 0 0-.032-.12A15.07 15.07 0 0 0 8.799-.001c-2.253 0-4.391.491-6.313 1.371l.095-.039c-.543.312-.144 2.389.75 3.372a.54.54 0 0 0 .61.127l-.004.001zm16.053.519a.11.11 0 0 0-.086-.08h-.009a.11.11 0 0 0-.096.063v.001c-1.426 4.099-3.317 7.653-5.664 10.852l.08-.114a.54.54 0 0 0-.007.617l-.001-.002a8.8 8.8 0 0 0 3.702 3.293l.053.023q.082.031.183.032h.01a.55.55 0 0 0 .494-.325l.001-.003c1.192-2.743 1.885-5.938 1.885-9.295c0-1.794-.198-3.541-.573-5.222l.03.159zm-.199 7.151a23.9 23.9 0 0 1-1.753 7.02l.059-.157a8.2 8.2 0 0 1-3.288-2.939l-.02-.033a41.8 41.8 0 0 0 4.811-8.627l.103-.282a23 23 0 0 1 .082 5.109l.007-.092z"/><path fill="currentColor" d="M20.914 6.038a.098.098 0 0 0-.178.057l.001.016V6.11c.239 1.289.375 2.773.375 4.288c0 3.53-.741 6.887-2.075 9.925l.062-.159a.536.536 0 0 0 .181.646l.002.001c1.062.727 3.2 1.11 3.356.607c.008-.016.016-.04.024-.056c.832-1.818 1.318-3.943 1.318-6.182c0-3.451-1.153-6.632-3.094-9.18zm-1.56-1.403a.11.11 0 0 0-.097-.024h.001C15.137 5.998 11.56 7.862 8.34 10.189l.118-.081a.536.536 0 0 0-.182.644l-.001-.004a10.1 10.1 0 0 0 2.089 3.284l-.004-.004a8.05 8.05 0 0 0 2.765 1.795l.055.019a.53.53 0 0 0 .622-.19l.001-.002a40 40 0 0 0 5.493-10.629l.084-.285a.1.1 0 0 0 .007-.033a.1.1 0 0 0-.033-.067z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons4_title">
+                                    <p>Activity</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destination_bottom_card_content_buy">
+                            <i class="fas fa-bookmark"></i>
+                            <p>98.90$ / person</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card_2">
+                    <div class="destination_bottom_card_img">
+                        <div class="destination_bottom_card_img2"></div>
+                    </div>
+                    <div class="destination_bottom_card_content">
+                        <div class="destination_bottom_card_content_title">
+                            <div class="destination_bottom_card_content_title_left">
+                                <div class="destination_bottom_card_content_title_left_up">
+                                    <h3>Spain</h3>
+                                </div>
+                                <div class="destination_bottom_card_content_title_left_down">
+                                    <p>6 Days 7 Nights</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_title_right">
+                                <i class="fas fa-star"></i>
+                                <span>4.7</span>
+                            </div>
+
+
+                        </div>
+
+                        <div class="destination_bottom_card_content_icons">
+                            <div class="destination_bottom_card_content_icons1">
+                                <div class="destination_bottom_card_content_icons1_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons1_title">
+                                    <p>Plane</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons2">
+                                <div class="destination_bottom_card_content_icons2_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 22v-6.57M12 11h.01M12 7h.01M14 15.43V22m1-6a5 5 0 0 0-6 0m7-5h.01M16 7h.01M8 11h.01M8 7h.01"/><rect width="16" height="20" x="4" y="2" rx="2"/></g></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons2_title">
+                                    <p>Hotel</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons3">
+                                <div class="destination_bottom_card_content_icons3_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19.031 15.388a.863.863 0 1 1 .002-1.726a.863.863 0 0 1-.002 1.726m0-2.88a2.014 2.014 0 1 0 .003 4.029a2.014 2.014 0 0 0-.004-4.029zm-14.137 2.88a.864.864 0 0 1 0-1.726a.863.863 0 0 1 0 1.726m0-2.88a2.014 2.014 0 1 0 2.014 2.014v-.001a2.014 2.014 0 0 0-2.014-2.014h-.002z"/><path fill="currentColor" d="m11.507 9.727l-.143-2.64h2.202l3.023 2.64zm-.854 0H7.191l1.207-2.64h2.254zm-4.695 0H4.894l2.014-2.64h.64zm17.46 2.16l-.18-.578a1.68 1.68 0 0 0-1.312-1.151l-.01-.001l-4.262-.71l-3.108-2.646a1.68 1.68 0 0 0-1.096-.404H7.206c-.585 0-1.103.288-1.42.729l-.004.005l-1.854 2.607l-1.954.2a1.28 1.28 0 0 0-1.112.973l-.002.009l-.292 1.259H.565a.56.56 0 0 0-.454.232l-.001.002a.56.56 0 0 0-.079.512l-.001-.004l.18.539a1.56 1.56 0 0 0 1.474 1.062h.554a2.656 2.656 0 1 1 5.311 0h8.826a2.656 2.656 0 0 1 2.656-2.656h.001a2.656 2.656 0 0 1 2.656 2.656h.458c.769 0 1.419-.509 1.631-1.209l.003-.012l.198-.666a.59.59 0 0 0-.093-.515l.001.001a.59.59 0 0 0-.467-.234z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons3_title">
+                                    <p>Transfert</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons4">
+                                <div class="destination_bottom_card_content_icons4_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9.397 13.829L0 23.226l.775.775l9.373-9.373a8 8 0 0 1-.74-.786l-.011-.014zM4.426 5.262a.534.534 0 0 0-.31.651l-.001-.004a6.4 6.4 0 0 0 3.263 3.819l.037.017c.069.04.153.064.242.064h.014h-.001h.001a.55.55 0 0 0 .313-.097l-.002.001a40.5 40.5 0 0 1 10.372-5.441l.287-.088A.095.095 0 0 0 18.625 4h-.001a22.4 22.4 0 0 0-4.968-.543h-.052h.003h-.006a24.2 24.2 0 0 0-9.336 1.865l.16-.059zm3.236 3.884a7 7 0 0 1-1.709-1.285l-.001-.001a5.14 5.14 0 0 1-1.18-1.993l-.01-.036c2.619-1.09 5.662-1.723 8.852-1.726h.001a23 23 0 0 1 3.001.196l-.117-.012c-3.375 1.369-6.285 3-8.955 4.941l.12-.083z"/><path fill="currentColor" d="M3.938 4.832c2.847-1.242 6.165-1.965 9.652-1.965c1.514 0 2.996.136 4.434.397l-.151-.023a.09.09 0 0 0 .104-.055v-.001a.1.1 0 0 0-.032-.12A15.07 15.07 0 0 0 8.799-.001c-2.253 0-4.391.491-6.313 1.371l.095-.039c-.543.312-.144 2.389.75 3.372a.54.54 0 0 0 .61.127l-.004.001zm16.053.519a.11.11 0 0 0-.086-.08h-.009a.11.11 0 0 0-.096.063v.001c-1.426 4.099-3.317 7.653-5.664 10.852l.08-.114a.54.54 0 0 0-.007.617l-.001-.002a8.8 8.8 0 0 0 3.702 3.293l.053.023q.082.031.183.032h.01a.55.55 0 0 0 .494-.325l.001-.003c1.192-2.743 1.885-5.938 1.885-9.295c0-1.794-.198-3.541-.573-5.222l.03.159zm-.199 7.151a23.9 23.9 0 0 1-1.753 7.02l.059-.157a8.2 8.2 0 0 1-3.288-2.939l-.02-.033a41.8 41.8 0 0 0 4.811-8.627l.103-.282a23 23 0 0 1 .082 5.109l.007-.092z"/><path fill="currentColor" d="M20.914 6.038a.098.098 0 0 0-.178.057l.001.016V6.11c.239 1.289.375 2.773.375 4.288c0 3.53-.741 6.887-2.075 9.925l.062-.159a.536.536 0 0 0 .181.646l.002.001c1.062.727 3.2 1.11 3.356.607c.008-.016.016-.04.024-.056c.832-1.818 1.318-3.943 1.318-6.182c0-3.451-1.153-6.632-3.094-9.18zm-1.56-1.403a.11.11 0 0 0-.097-.024h.001C15.137 5.998 11.56 7.862 8.34 10.189l.118-.081a.536.536 0 0 0-.182.644l-.001-.004a10.1 10.1 0 0 0 2.089 3.284l-.004-.004a8.05 8.05 0 0 0 2.765 1.795l.055.019a.53.53 0 0 0 .622-.19l.001-.002a40 40 0 0 0 5.493-10.629l.084-.285a.1.1 0 0 0 .007-.033a.1.1 0 0 0-.033-.067z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons4_title">
+                                    <p>Activity</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destination_bottom_card_content_buy">
+                            <i class="fas fa-bookmark"></i>
+                            <p>98.90$ / person</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card_3">
+                    <div class="destination_bottom_card_img">
+                        <div class="destination_bottom_card_img3"></div>
+                    </div>
+                    <div class="destination_bottom_card_content">
+                        <div class="destination_bottom_card_content_title">
+                            <div class="destination_bottom_card_content_title_left">
+                                <div class="destination_bottom_card_content_title_left_up">
+                                    <h3>Kenya</h3>
+                                </div>
+                                <div class="destination_bottom_card_content_title_left_down">
+                                    <p>8 Days 9 Nights</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_title_right">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+
+
+                        </div>
+
+                        <div class="destination_bottom_card_content_icons">
+                            <div class="destination_bottom_card_content_icons1">
+                                <div class="destination_bottom_card_content_icons1_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons1_title">
+                                    <p>Plane</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons2">
+                                <div class="destination_bottom_card_content_icons2_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 22v-6.57M12 11h.01M12 7h.01M14 15.43V22m1-6a5 5 0 0 0-6 0m7-5h.01M16 7h.01M8 11h.01M8 7h.01"/><rect width="16" height="20" x="4" y="2" rx="2"/></g></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons2_title">
+                                    <p>Hotel</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons3">
+                                <div class="destination_bottom_card_content_icons3_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19.031 15.388a.863.863 0 1 1 .002-1.726a.863.863 0 0 1-.002 1.726m0-2.88a2.014 2.014 0 1 0 .003 4.029a2.014 2.014 0 0 0-.004-4.029zm-14.137 2.88a.864.864 0 0 1 0-1.726a.863.863 0 0 1 0 1.726m0-2.88a2.014 2.014 0 1 0 2.014 2.014v-.001a2.014 2.014 0 0 0-2.014-2.014h-.002z"/><path fill="currentColor" d="m11.507 9.727l-.143-2.64h2.202l3.023 2.64zm-.854 0H7.191l1.207-2.64h2.254zm-4.695 0H4.894l2.014-2.64h.64zm17.46 2.16l-.18-.578a1.68 1.68 0 0 0-1.312-1.151l-.01-.001l-4.262-.71l-3.108-2.646a1.68 1.68 0 0 0-1.096-.404H7.206c-.585 0-1.103.288-1.42.729l-.004.005l-1.854 2.607l-1.954.2a1.28 1.28 0 0 0-1.112.973l-.002.009l-.292 1.259H.565a.56.56 0 0 0-.454.232l-.001.002a.56.56 0 0 0-.079.512l-.001-.004l.18.539a1.56 1.56 0 0 0 1.474 1.062h.554a2.656 2.656 0 1 1 5.311 0h8.826a2.656 2.656 0 0 1 2.656-2.656h.001a2.656 2.656 0 0 1 2.656 2.656h.458c.769 0 1.419-.509 1.631-1.209l.003-.012l.198-.666a.59.59 0 0 0-.093-.515l.001.001a.59.59 0 0 0-.467-.234z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons3_title">
+                                    <p>Transfert</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons4">
+                                <div class="destination_bottom_card_content_icons4_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9.397 13.829L0 23.226l.775.775l9.373-9.373a8 8 0 0 1-.74-.786l-.011-.014zM4.426 5.262a.534.534 0 0 0-.31.651l-.001-.004a6.4 6.4 0 0 0 3.263 3.819l.037.017c.069.04.153.064.242.064h.014h-.001h.001a.55.55 0 0 0 .313-.097l-.002.001a40.5 40.5 0 0 1 10.372-5.441l.287-.088A.095.095 0 0 0 18.625 4h-.001a22.4 22.4 0 0 0-4.968-.543h-.052h.003h-.006a24.2 24.2 0 0 0-9.336 1.865l.16-.059zm3.236 3.884a7 7 0 0 1-1.709-1.285l-.001-.001a5.14 5.14 0 0 1-1.18-1.993l-.01-.036c2.619-1.09 5.662-1.723 8.852-1.726h.001a23 23 0 0 1 3.001.196l-.117-.012c-3.375 1.369-6.285 3-8.955 4.941l.12-.083z"/><path fill="currentColor" d="M3.938 4.832c2.847-1.242 6.165-1.965 9.652-1.965c1.514 0 2.996.136 4.434.397l-.151-.023a.09.09 0 0 0 .104-.055v-.001a.1.1 0 0 0-.032-.12A15.07 15.07 0 0 0 8.799-.001c-2.253 0-4.391.491-6.313 1.371l.095-.039c-.543.312-.144 2.389.75 3.372a.54.54 0 0 0 .61.127l-.004.001zm16.053.519a.11.11 0 0 0-.086-.08h-.009a.11.11 0 0 0-.096.063v.001c-1.426 4.099-3.317 7.653-5.664 10.852l.08-.114a.54.54 0 0 0-.007.617l-.001-.002a8.8 8.8 0 0 0 3.702 3.293l.053.023q.082.031.183.032h.01a.55.55 0 0 0 .494-.325l.001-.003c1.192-2.743 1.885-5.938 1.885-9.295c0-1.794-.198-3.541-.573-5.222l.03.159zm-.199 7.151a23.9 23.9 0 0 1-1.753 7.02l.059-.157a8.2 8.2 0 0 1-3.288-2.939l-.02-.033a41.8 41.8 0 0 0 4.811-8.627l.103-.282a23 23 0 0 1 .082 5.109l.007-.092z"/><path fill="currentColor" d="M20.914 6.038a.098.098 0 0 0-.178.057l.001.016V6.11c.239 1.289.375 2.773.375 4.288c0 3.53-.741 6.887-2.075 9.925l.062-.159a.536.536 0 0 0 .181.646l.002.001c1.062.727 3.2 1.11 3.356.607c.008-.016.016-.04.024-.056c.832-1.818 1.318-3.943 1.318-6.182c0-3.451-1.153-6.632-3.094-9.18zm-1.56-1.403a.11.11 0 0 0-.097-.024h.001C15.137 5.998 11.56 7.862 8.34 10.189l.118-.081a.536.536 0 0 0-.182.644l-.001-.004a10.1 10.1 0 0 0 2.089 3.284l-.004-.004a8.05 8.05 0 0 0 2.765 1.795l.055.019a.53.53 0 0 0 .622-.19l.001-.002a40 40 0 0 0 5.493-10.629l.084-.285a.1.1 0 0 0 .007-.033a.1.1 0 0 0-.033-.067z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons4_title">
+                                    <p>Activity</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destination_bottom_card_content_buy">
+                            <i class="fas fa-bookmark"></i>
+                            <p>80$ / person</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card_4">
+                    <div class="destination_bottom_card_img">
+                        <div class="destination_bottom_card_img4"></div>
+                    </div>
+                    <div class="destination_bottom_card_content">
+                        <div class="destination_bottom_card_content_title">
+                            <div class="destination_bottom_card_content_title_left">
+                                <div class="destination_bottom_card_content_title_left_up">
+                                    <h3>Hallstatt</h3>
+                                </div>
+                                <div class="destination_bottom_card_content_title_left_down">
+                                    <p>3 Days 4 Nights</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_title_right">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+
+
+                        </div>
+
+                        <div class="destination_bottom_card_content_icons">
+                            <div class="destination_bottom_card_content_icons1">
+                                <div class="destination_bottom_card_content_icons1_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons1_title">
+                                    <p>Plane</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons2">
+                                <div class="destination_bottom_card_content_icons2_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 22v-6.57M12 11h.01M12 7h.01M14 15.43V22m1-6a5 5 0 0 0-6 0m7-5h.01M16 7h.01M8 11h.01M8 7h.01"/><rect width="16" height="20" x="4" y="2" rx="2"/></g></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons2_title">
+                                    <p>Hotel</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons3">
+                                <div class="destination_bottom_card_content_icons3_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19.031 15.388a.863.863 0 1 1 .002-1.726a.863.863 0 0 1-.002 1.726m0-2.88a2.014 2.014 0 1 0 .003 4.029a2.014 2.014 0 0 0-.004-4.029zm-14.137 2.88a.864.864 0 0 1 0-1.726a.863.863 0 0 1 0 1.726m0-2.88a2.014 2.014 0 1 0 2.014 2.014v-.001a2.014 2.014 0 0 0-2.014-2.014h-.002z"/><path fill="currentColor" d="m11.507 9.727l-.143-2.64h2.202l3.023 2.64zm-.854 0H7.191l1.207-2.64h2.254zm-4.695 0H4.894l2.014-2.64h.64zm17.46 2.16l-.18-.578a1.68 1.68 0 0 0-1.312-1.151l-.01-.001l-4.262-.71l-3.108-2.646a1.68 1.68 0 0 0-1.096-.404H7.206c-.585 0-1.103.288-1.42.729l-.004.005l-1.854 2.607l-1.954.2a1.28 1.28 0 0 0-1.112.973l-.002.009l-.292 1.259H.565a.56.56 0 0 0-.454.232l-.001.002a.56.56 0 0 0-.079.512l-.001-.004l.18.539a1.56 1.56 0 0 0 1.474 1.062h.554a2.656 2.656 0 1 1 5.311 0h8.826a2.656 2.656 0 0 1 2.656-2.656h.001a2.656 2.656 0 0 1 2.656 2.656h.458c.769 0 1.419-.509 1.631-1.209l.003-.012l.198-.666a.59.59 0 0 0-.093-.515l.001.001a.59.59 0 0 0-.467-.234z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons3_title">
+                                    <p>Transfert</p>
+                                </div>
+                            </div>
+                            <div class="destination_bottom_card_content_icons4">
+                                <div class="destination_bottom_card_content_icons4_img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9.397 13.829L0 23.226l.775.775l9.373-9.373a8 8 0 0 1-.74-.786l-.011-.014zM4.426 5.262a.534.534 0 0 0-.31.651l-.001-.004a6.4 6.4 0 0 0 3.263 3.819l.037.017c.069.04.153.064.242.064h.014h-.001h.001a.55.55 0 0 0 .313-.097l-.002.001a40.5 40.5 0 0 1 10.372-5.441l.287-.088A.095.095 0 0 0 18.625 4h-.001a22.4 22.4 0 0 0-4.968-.543h-.052h.003h-.006a24.2 24.2 0 0 0-9.336 1.865l.16-.059zm3.236 3.884a7 7 0 0 1-1.709-1.285l-.001-.001a5.14 5.14 0 0 1-1.18-1.993l-.01-.036c2.619-1.09 5.662-1.723 8.852-1.726h.001a23 23 0 0 1 3.001.196l-.117-.012c-3.375 1.369-6.285 3-8.955 4.941l.12-.083z"/><path fill="currentColor" d="M3.938 4.832c2.847-1.242 6.165-1.965 9.652-1.965c1.514 0 2.996.136 4.434.397l-.151-.023a.09.09 0 0 0 .104-.055v-.001a.1.1 0 0 0-.032-.12A15.07 15.07 0 0 0 8.799-.001c-2.253 0-4.391.491-6.313 1.371l.095-.039c-.543.312-.144 2.389.75 3.372a.54.54 0 0 0 .61.127l-.004.001zm16.053.519a.11.11 0 0 0-.086-.08h-.009a.11.11 0 0 0-.096.063v.001c-1.426 4.099-3.317 7.653-5.664 10.852l.08-.114a.54.54 0 0 0-.007.617l-.001-.002a8.8 8.8 0 0 0 3.702 3.293l.053.023q.082.031.183.032h.01a.55.55 0 0 0 .494-.325l.001-.003c1.192-2.743 1.885-5.938 1.885-9.295c0-1.794-.198-3.541-.573-5.222l.03.159zm-.199 7.151a23.9 23.9 0 0 1-1.753 7.02l.059-.157a8.2 8.2 0 0 1-3.288-2.939l-.02-.033a41.8 41.8 0 0 0 4.811-8.627l.103-.282a23 23 0 0 1 .082 5.109l.007-.092z"/><path fill="currentColor" d="M20.914 6.038a.098.098 0 0 0-.178.057l.001.016V6.11c.239 1.289.375 2.773.375 4.288c0 3.53-.741 6.887-2.075 9.925l.062-.159a.536.536 0 0 0 .181.646l.002.001c1.062.727 3.2 1.11 3.356.607c.008-.016.016-.04.024-.056c.832-1.818 1.318-3.943 1.318-6.182c0-3.451-1.153-6.632-3.094-9.18zm-1.56-1.403a.11.11 0 0 0-.097-.024h.001C15.137 5.998 11.56 7.862 8.34 10.189l.118-.081a.536.536 0 0 0-.182.644l-.001-.004a10.1 10.1 0 0 0 2.089 3.284l-.004-.004a8.05 8.05 0 0 0 2.765 1.795l.055.019a.53.53 0 0 0 .622-.19l.001-.002a40 40 0 0 0 5.493-10.629l.084-.285a.1.1 0 0 0 .007-.033a.1.1 0 0 0-.033-.067z"/></svg>
+                                </div>
+                                <div class="destination_bottom_card_content_icons4_title">
+                                    <p>Activity</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destination_bottom_card_content_buy">
+                            <i class="fas fa-bookmark"></i>
+                            <p>108.90$ / person</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="hotel">
+            <div id="reservation_border">
+                <div id="reservation_border_left">
+                    <h2>Life is short,<br>the world is wide</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis harum natus ex, sit numquam eligendi illum cupiditate? Nobis, deleniti iure.</p>
+                    <h3>Here Our Reservation</h3>
+
+                    <form class="reservation-form">
+                        <div class="input-group">
+                            <label for="location">Location</label>
+                            <div class="input-container">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <input type="text" id="location" name="location" placeholder="Where are you going?">
+                            </div>
+                        </div>
+
+                        <div class="input-group dual-column">
+                            <div class="date-input">
+                                <label for="checkin">Check In</label>
+                                <div class="input-container">
+                                    <i class="fas fa-calendar-alt"></i>
+
+                                    <input type="date" id="checkin" name="checkin">
+                                </div>
+                            </div>
+
+                            <div class="date-input">
+                                <label for="checkout">Check Out</label>
+                                <div class="input-container">
+                                    <i class="fas fa-calendar-alt"></i>
+
+                                    <input type="date" id="checkout" name="checkout">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="input-group">
+                            <label for="email">E-mail</label>
+                            <div class="input-container">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="email" name="email" placeholder="Enter your email">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="reservation-button">Make Reservation</button>
+                    </form>
+                </div>
+
+                <div id="reservation_border_right">
+                    <img src="/assets/img/reservation.jpg" alt="Reservation Image">
+                </div>
+            </div>
+        </section>
+        <section id="reservation">
+            <div class="title">
+                <h2>Our Hotel</h2>
+                <p>You can see their one our hotel destination</p>
+            </div>
+            <div class="listhotel">
+                <div class="container">
+                    <div class="card_1">
+                        <div class="hotel-1">
+
+                        </div>
+                        <div class="hotel-2">
+
+                        </div>
+                    </div>
+                    <div class="card_2">
+
+                    </div>
+                    <div class="card_3">
+                        <div class="hotel-1">
+
+                        </div>
+                        <div class="hotel-2">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
-  </body>
+    <footer>
+        <div class="contact">
+            <div class="part-1">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./assets/img/logo.png" alt="logo JCRAM'v">
+                    </div>
+
+                    <h3>JCRAM'<span>V</span></h3>
+                </div>
+                <div class="info">
+                    <p>Explore the world with JCRAM'V and disscover unforgettable experience. From the moment you arrive , we're dedicated to making your journey extraordinary.
+                    </p>
+                </div>
+                <div class="icon">
+
+                </div>
+            </div>
+            <div class="part-2">
+                <h3>Contact US</h3>
+                <ol>
+                    <li>123rue Radama Soavimasoandro</li>
+                    <li>heistudent@school</li>
+                    <li>+261-32-45-567-67</li>
+                </ol>
+            </div>
+            <div class="part-3">
+                <h3>Sign up to new paper</h3>
+                <label for="search">.</label>
+                <input type="search" name="search" id="search">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Lorem ipsum dolor sit amet | 2025 </p>
+        </div>
+
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+</body>
 <html>

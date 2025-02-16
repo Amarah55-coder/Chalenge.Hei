@@ -1,0 +1,93 @@
+#hotel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    .box {
+        width: 70%;
+        height: 95%;
+        margin: auto;
+        background-color: rgb(191, 223, 252);
+        border-radius: 2rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        .annonce,
+        .photo {
+            width: 50%;
+            height: 100%;
+        }
+        .photo {
+            border-radius: 1rem;
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 1rem;
+                object-fit: cover;
+            }
+        }
+        .annonce {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: flex-start;
+            .note {
+                height: 40%;
+                width: 100%;
+                line-height: 1.5;
+                h2 {
+                    width: 90%;
+                    font-size: 2.9rem;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                }
+                p {
+                    font-size: 1.25rem;
+                }
+            }
+            form {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 1rem 1rem 0 0;
+                gap: 2rem;
+                h3 {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+                .top,
+                .bottom {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 2rem;
+                    .left,
+                    .right {
+                        width: 50%;
+                        input {
+                            width: 100%;
+                            padding: 0.5rem 1rem;
+                            margin-bottom: 1rem;
+                            color: var(--black);
+                        }
+                        label {
+                            font-size: 1.25rem;
+                            font-weight: 600;
+                            color: var(--black);
+                        }
+                    }
+                }
+                button {
+                    padding: 0.5rem 1rem;
+                    color: white;
+                    font-size: 1.25rem;
+                    background-color: var(--secondary-color);
+                    border: none;
+                    border-radius: 0.5rem;
+                }
+                button:hover {
+                    background-color: orange;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,168 @@
+footer {
+    width: 100%;
+    height: 35vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    .contact {
+        height: 95%;
+        width: 100%;
+        width: 100%;
+        padding: 2rem 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .part-1,
+        .part-2,
+        .part-3 {
+            width: 33.33%;
+            height: 100%;
+        }
+        .part-1 {
+            padding: 1rem;
+            .logo {
+                display: flex;
+                justify-content: start;
+                height: 33.33%;
+                width: 100%;
+                .logo-img {
+                    height: 100%;
+                    width: 10vh;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                h3 {
+                    padding: 0 0 0 1rem;
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    span {
+                        color: var(--secondary-color);
+                    }
+                }
+            }
+            .info {
+                height: 40%;
+                width: 100%;
+                padding: 1rem 5rem 0 0;
+                text-align: justify;
+            }
+        }
+        .part-2 {
+            h3 {
+                font-size: 2rem;
+                padding: 0 0 2rem 0;
+            }
+            ol {
+                list-style: none;
+                li {
+                    padding-left: 0.5rem;
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+        .part-3 {
+            display: flex;
+            flex-direction: column;
+            h3 {
+                font-size: 2rem;
+                padding: 0 0 2rem 0;
+            }
+            input {
+                width: 60%;
+                padding: 0.6rem 0.5rem;
+                background-color: var(--white);
+                border: none;
+            }
+        }
+    }
+    .copyright {
+        height: 5%;
+        width: 100%;
+        background-color: rgb(26, 25, 25);
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            color: var(--white);
+            font-size: 1.25rem;
+        }
+    }
+}
+
+@media (width <=760px) {
+    footer {
+        height: auto;
+        width: 100%;
+        .contact {
+            display: block;
+            flex-direction: column;
+            align-items: start;
+            height: auto;
+            width: 100%;
+            .part-1,
+            .part-2,
+            .part-3 {
+                width: 95%;
+                height: auto;
+                margin: auto;
+            }
+            .part-1 {
+                .logo {
+                    height: auto;
+                    line-height: 1.5;
+                    .logo-img {
+                        height: 100%;
+                        width: 7vh;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    h3 {
+                        padding: 0 0 0 0.5rem;
+                        font-size: 1.25rem;
+                    }
+                }
+                .info {
+                    height: auto;
+                    padding: 1rem;
+                    text-align: justify;
+                }
+            }
+            .part-2 {
+                h3 {
+                    font-size: 1.5rem;
+                    padding: 0 0 1rem 1.5rem;
+                }
+                ol {
+                    list-style: none;
+                    li {
+                        padding-left: 1.5rem;
+                        padding-bottom: 2rem;
+                    }
+                }
+            }
+            .part-3 {
+                padding: 0 0 0 1.5rem;
+                h3 {
+                    font-size: 1.5rem;
+                }
+                input {
+                    width: 100%;
+                    padding: 0.4rem 1rem;
+                }
+            }
+        }
+        .copyright {
+            padding: 0.5rem;
+            p {
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
